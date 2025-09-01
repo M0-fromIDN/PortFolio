@@ -255,6 +255,9 @@ section{
     scale: 1.2;
     box-shadow: hsl(var(--text-color), 30%) 0px 0px 10px;
 }
+.hamburger{
+    rotate: 90deg;
+}
 
 .hamburger, .cancel{
     cursor: pointer;
@@ -612,3 +615,4 @@ section{
         width: 90%;
     }
 }
+
