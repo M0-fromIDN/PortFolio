@@ -46,7 +46,20 @@ nav{
     top: 0;
     z-index: 1000;
 }
+.about{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
 
+.about:hover {
+    transform: translateY(-5px);
+}
 
 .nav-container {
     width: 100%;
@@ -114,7 +127,6 @@ nav{
 section{
     width: 100%;
     min-height: 100vh;
-    padding: 100px 0;
 }
 
 .main-container{
@@ -281,7 +293,7 @@ section{
 
 /* New Section Styles */
 .section {
-    padding: 100px 0;
+    padding: 10rem;
     min-height: 100vh;
     display: flex;
     align-items: center;
